@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import {FaWhatsappSquare} from 'react-icons/fa';
 
 const ScrollTop = () => {
   useEffect(() => {
@@ -6,7 +7,7 @@ const ScrollTop = () => {
 
     window.addEventListener("scroll", () => {
       let st = window.scrollY;
-      if (st > 110) {
+      if (st >= 0) {
         scrollUp.style.display = "inline-block";
       } else {
         scrollUp.style.display = "none";
@@ -21,9 +22,10 @@ const ScrollTop = () => {
       className="scroll-to-top scroll-to-target"
       id="scroll-top"
       data-target="html"
-      onClick={() => onClick()}
+      style={{fontSize:"4rem"}}
     >
-      <span className="fas fa-arrow-up" />
+      {/* <span className="fas fa-arrow-up" /> */}
+      <a href="https://wa.me/+918217556118"><FaWhatsappSquare color="green"/></a>
     </div>
   );
 };
