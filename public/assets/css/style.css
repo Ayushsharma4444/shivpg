@@ -2732,7 +2732,7 @@ section.section-six {
     bottom: 0;
     right: 0;
     height: 0;
-    background: #be9a78;
+/*     background: #be9a78; */
     transition: .5s;
 }
 
@@ -2745,7 +2745,7 @@ section.section-six {
 }
 
 .block-six:hover h4 {
-    color: #fff;
+/*     color: #fff; */
 }
 
 .block-six:hover .icon:before {
