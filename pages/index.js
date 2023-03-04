@@ -200,6 +200,75 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* New features */}
+
+
+      <section className="section-six">
+        <div className="auto-container " >
+          {/* <div className="sub-title text-center">Features</div> */}
+          <h2 className="sec-title text-center">Speciality for Student</h2>
+          <div className="row" style={{display:"flex" , justifyContent:"center"}}>
+            <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="block-six">
+                <h4 style={{fontSize:"1.5rem",fontWeight:"600"}}>Study Table with</h4>  <br/>         
+              <div style={{display:"flex",justifyContent:"center"}}><ul>
+                <li style={{textAlign:"start"}}>• Pin Board</li>
+                <li style={{textAlign:"start"}}>• Table Lamp</li>
+                <li style={{textAlign:"start"}}>• Book Shelf</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="block-six">
+                <h4 style={{fontSize:"1.5rem",fontWeight:"600"}}>Bed With</h4>           
+              <div style={{display:"flex" , justifyContent:"center"}}><ul>
+                <li style={{textAlign:"start"}}>• Side Table  </li>
+                <li style={{textAlign:"start"}}>• Mattress</li>
+                <li style={{textAlign:"start"}}>•  Bedsheet</li>
+                <li  style={{textAlign:"start"}}>•  Pillow</li>
+                </ul>
+                </div>
+              </div>
+            </div><br/>
+            <div className="col-lg-6 col-md-4 col-sm-6">
+              <div className="block-six">
+                <h4 style={{fontSize:"1.5rem",fontWeight:"600"}}>Power Back Up with</h4>           
+              <div style={{display:"flex" , justifyContent:"center"}} ><ul>
+                <li style={{textAlign:"start"}}>• TV</li>
+                <li style={{textAlign:"start"}}>• Washing Machine</li>
+                <li style={{textAlign:"start"}}>• Geyser</li>
+                <li style={{textAlign:"start"}}>• Water Purifier  </li>
+                {/* <li style={{textAlign:"start"}}>•  CCTV  </li> */}
+                </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="block-six">
+                <h4 style={{fontSize:"1.5rem",fontWeight:"600"}}>24*7 Water with</h4>           
+              <div  style={{display:"flex" , justifyContent:"center"}}><ul>
+                <li style={{textAlign:"start"}}>• Sofa  </li>
+                <li style={{textAlign:"start"}}>• Fridge</li>
+                <li style={{textAlign:"start"}}>• First Aid</li>
+                <li style={{textAlign:"start"}}>• Ambulance</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+           
+           
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
       {/* section two */}
       <section className="section-two">
         <div className="auto-container">
@@ -331,14 +400,7 @@ const Index = () => {
                 <h4>Gym Center NearBy</h4>
               </div>
             </div>
-            {/* <div className="col-lg-2 col-md-4 col-sm-6">
-              <div className="block-six">
-                <div className="icon">
-                  <i className="flaticon-massage" />
-                </div>
-                <h4>Spa &amp; Beauty</h4>
-              </div>
-            </div> */}
+            
             <div className="col-lg-2 col-md-4 col-sm-6">
               <div className="block-six">
                 <div className="icon">
@@ -347,14 +409,7 @@ const Index = () => {
                 <h4>Gaming Zone Nearby</h4>
               </div>
             </div>
-            {/* <div className="col-lg-2 col-md-4 col-sm-6">
-              <div className="block-six">
-                <div className="icon">
-                  <i className="flaticon-plane" />
-                </div>
-                <h4>Transport</h4>
-              </div>
-            </div> */}
+            
           </div>
         </div>
       </section>
@@ -363,19 +418,7 @@ const Index = () => {
         <h4 className="d-none">heading</h4>
         <div className="auto-container">
           <div className="block-seven">
-            {/* <div className="image">
-              <img src="assets/images/resource/video.jpg" alt="" />
-            </div> */}
-            {/* <div className="video-btn">
-              <a
-                href="https://www.youtube.com/watch?v=nfP5N9Yc72A&t=28s"
-                className="overlay-link play-now ripple"
-                data-fancybox="gallery"
-                data-caption=""
-              >
-                <i className="fas fa-play" />
-              </a>
-            </div> */}
+            
           </div>
         </div>
       </section>
@@ -534,157 +577,14 @@ const Index = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              {/* <SwiperSlide className="col-lg-12 block-eight text-center">
-                <div className="icon">
-                  <i className="flaticon-conference-1" />
-                </div>
-                <div className="inner-box">
-                  <div className="author-info">
-                    <div className="thumb">
-                      <img src="assets/images/resource/image-10.png" alt="" />
-                    </div>
-                    <div className="rating-info">
-                      <div className="rating">
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="far fa-star" />
-                      </div>
-                    </div>
-                    <h4>“ Easy Transport ”</h4>
-                  </div>
-                  <div className="content">
-                    <div className="text">
-                      Lorem ipsum dolor sit amet, consecte <br /> tur adipiscing
-                      elit, sed do eiusmod <br /> tempor incididunt.
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide> */}
+          
             </Swiper>
           </div>
         </div>
       </section>
       {/* section nine */}
-      {/* <section className="section-nine">
-        <div className="auto-container">
-          <div className="row">
-            <div className="col-lg-8">
-              { <div className="left-column">
-                <div className="sub-title text-light">Blog</div>
-                <h2 className="sec-title text-light">News &amp; Articles</h2>
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div className="block-nine">
-                      <div className="image">
-                        <Link href="/blog-details">
-                          <a>
-                            <img
-                              src="assets/images/resource/image-10.jpg"
-                              alt=""
-                            />
-                          </a>
-                        </Link>
-                        <div className="date">
-                          20 <br /> <span>Jun</span>
-                        </div>
-                      </div>
-                      <div className="inner-box">
-                        <div className="category">Hotel</div>
-                        <h4>
-                          <Link href="/blog-details">
-                            <a>
-                              Choose From a Wide Range of <br /> Properties
-                              Which
-                            </a>
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="block-nine">
-                      <div className="image">
-                        <Link href="/blog-details">
-                          <a>
-                            <img
-                              src="assets/images/resource/image-11.jpg"
-                              alt=""
-                            />
-                          </a>
-                        </Link>
-                        <div className="date">
-                          20 <br /> <span>Jun</span>
-                        </div>
-                      </div>
-                      <div className="inner-box">
-                        <div className="category">Hotel</div>
-                        <h4>
-                          <Link href="/blog-details">
-                            <a>
-                              Choose From a Wide Range of <br /> Properties
-                              Which
-                            </a>
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> }
-            </div>
-            <div className="col-lg-4">
-              <div className="right-column">
-                <div className="block-ten">
-                  <div className="wrap">
-                    <div className="inner-box">
-                      <div className="category">Hotel</div>
-                      <h3>
-                        <Link href="/blog-details">
-                          <a>
-                            Choose From a Wide Range of <br /> Properties Which
-                          </a>
-                        </Link>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div className="block-ten">
-                  <div className="wrap">
-                    <div className="inner-box">
-                      <div className="category">Foods</div>
-                      <h3>
-                        <Link href="/blog-details">
-                          <a>
-                            Dutch online travel agency for <br /> lodging
-                            reservations
-                          </a>
-                        </Link>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div className="block-ten">
-                  <div className="wrap">
-                    <div className="inner-box">
-                      <div className="category">Drinks</div>
-                      <h3>
-                        <Link href="/blog-details">
-                          <a>
-                            Other travel products, and a <br /> subsidiary of
-                            Booking
-                          </a>
-                        </Link>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+
+     
       {/* section ten */}
       <section className="section-ten">
         {/* <div className="auto-container">
