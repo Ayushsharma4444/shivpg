@@ -25,7 +25,7 @@ const About = () => {
                 </div>
                 <h2 className="sec-title">
                   Welcome To Our <br />{" "}
-                  <span className="theme-color">King Hotel</span>{" "}
+                  <span className="theme-color">Shiv Niwas PG</span>{" "}
                 </h2>
                 <div className="text-two">
                   We Have Over 40 Payment Ways for Locking the Lowest Room

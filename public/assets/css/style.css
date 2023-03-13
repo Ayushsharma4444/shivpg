@@ -87,7 +87,8 @@ font-family: 'Roboto', sans-serif;
 
 body {
     -webkit-font-smoothing: antialiased;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
+    background: #f8faf9;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.6em;

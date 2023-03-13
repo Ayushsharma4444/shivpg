@@ -92,13 +92,13 @@ const Header = ({ headernumber }) => {
         <div className="auto-container">
           <div className="text-center">
         <div className="logo-box main-logo">
-              <div className="logo">
+              <div className="logo" style={{backgroundColor:"#f8faf9"}}>
                 <Link href="/">
                   <a>
-                    <img src="https://lh5.googleusercontent.com/p/AF1QipOodfsaUzJn_6fOnrfXtX7phjw9dSFci8laNclY" alt=""  width={200}/>
+                    <img src="https://img.myloview.com/murals/art-artwork-background-black-blessing-culture-decorated-decoration-deity-design-devotion-festival-god-graphic-hindu-hinduism-india-indian-logo-lord-maha-maha-shivratri-mahadev-m-400-236118854.jpg" alt=""  width={200}/>
                   </a>
                 </Link>
-                <h1 style={{fontWeight:"600"}}>Ganapathi Niwas Student PG</h1>
+                <h1 style={{fontWeight:"600"}}>Shiv Niwas Student PG</h1>
               </div>
             </div>
             </div>

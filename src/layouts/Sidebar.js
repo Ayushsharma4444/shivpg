@@ -4,6 +4,7 @@ const Sidebar = ({ open, closeSidebar }) => {
   return (
     <section
       className={`hidden-sidebar  ${open ? "active-sidebar" : "close-sidebar"}`}
+      style={{background:"#f8faf9"}}
     >
       <div className="wrapper-box">
         <div className="content-wrapper">
@@ -12,10 +13,10 @@ const Sidebar = ({ open, closeSidebar }) => {
           </div>
           <div className="about-widget widget">
             <div className="logo">
-              <img src="https://lh5.googleusercontent.com/p/AF1QipOodfsaUzJn_6fOnrfXtX7phjw9dSFci8laNclY" width={200} alt="" />
+              <img src="https://img.myloview.com/murals/art-artwork-background-black-blessing-culture-decorated-decoration-deity-design-devotion-festival-god-graphic-hindu-hinduism-india-indian-logo-lord-maha-maha-shivratri-mahadev-m-400-236118854.jpg" width={200} alt="" />
             </div>
             <div className="text">
-            Ganpati Nivas PG is an excellent choice for anyone looking for a comfortable and affordable stay.
+            Shiv Nivas PG is an excellent choice for anyone looking for a comfortable and affordable stay.
             </div>
           </div>
           {/* <div className="instagram-widget widget">
@@ -137,19 +138,19 @@ const Sidebar = ({ open, closeSidebar }) => {
           <div className="widget contact-widget">
             <h4>Get In Touch</h4>
             <div className="text">
-              Welcome to Ganpathi Niwas Student PG, where comfort is everything.
+              Welcome to Shiv Niwas Student PG, where comfort is everything.
             </div>
             <ul>
               <li>
                 <i className="fal fa-phone" />
-                <a href="tel:9620552269">9620552269</a>
+                <a href="tel:8210310113">8210310113</a>
               </li>
               <li>
                 <i className="fal fa-envelope" />
-                <a href="mailto:dakshvakshish@gmail.com">dakshvakshish@gmail.com</a>
+                <a href="mailto:shiv.niwas09@gmail.com">shiv.niwas09@gmail.com</a>
               </li>
               <li>
-                <i className="fal fa-map-marker-alt" /> No 79, Front of Acharya Institute,<br/>
+                <i className="fal fa-map-marker-alt" /> Near Acharya Hostel,<br/>
 Soladevanahalli, Karnataka 560107
                 
               </li>

@@ -25,7 +25,7 @@ const ScrollTop = () => {
       style={{fontSize:"4rem"}}
     >
       {/* <span className="fas fa-arrow-up" /> */}
-      <a href="https://wa.me/+918217556118"><FaWhatsappSquare color="green"/></a>
+      <a href="https://wa.me/+918210310113"><FaWhatsappSquare color="green"/></a>
     </div>
   );
 };

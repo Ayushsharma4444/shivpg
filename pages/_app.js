@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       {loader && <PreLoader />}
       <Head>
-        <title>Ganpathi Niwas PG</title>
+        <title>Shiv Niwas PG</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
         <link
           rel="shortcut icon"
           // href="assets/images/favicon.png"
-          href="https://lh5.googleusercontent.com/p/AF1QipOodfsaUzJn_6fOnrfXtX7phjw9dSFci8laNclY"
+          href="https://img.myloview.com/murals/art-artwork-background-black-blessing-culture-decorated-decoration-deity-design-devotion-festival-god-graphic-hindu-hinduism-india-indian-logo-lord-maha-maha-shivratri-mahadev-m-400-236118854.jpg"
           type="image/x-icon"
         />
         <link rel="icon" href="https://lh5.googleusercontent.com/p/AF1QipOodfsaUzJn_6fOnrfXtX7phjw9dSFci8laNclY" type="image/x-icon" />

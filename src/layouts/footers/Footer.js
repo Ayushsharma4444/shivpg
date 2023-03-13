@@ -7,8 +7,7 @@ const Footer = ({ noBg, extraCls }) => {
     <footer
       className={`main-footer ${extraCls ? extraCls : "style-two"}`}
       style={{
-        // background: noBg ? null : `url(assets/images/background/bg-1.jpg)`,
-        background:'#f5f5f5'
+        background:'#f8faf9'
       }}
       id="contact"
     >
@@ -16,13 +15,15 @@ const Footer = ({ noBg, extraCls }) => {
         <div className="widget-wrapper">
           <div className="row">
             <div className="col-lg-3 col-md-6">
-              <div className="footer-logo">
-                <img src="https://lh5.googleusercontent.com/p/AF1QipOodfsaUzJn_6fOnrfXtX7phjw9dSFci8laNclY" alt="" />
+              <div className="footer-logo" style={{
+        background:'#f8faf9'
+      }}>
+                <img src="https://img.myloview.com/murals/art-artwork-background-black-blessing-culture-decorated-decoration-deity-design-devotion-festival-god-graphic-hindu-hinduism-india-indian-logo-lord-maha-maha-shivratri-mahadev-m-400-236118854.jpg" alt="" />
               </div>
             </div>
             <div className="column col-lg-3 col-md-6">
               <div className="widget links-widget" >
-                <h2 style={{fontWeight:"600"}}>Pages</h2><br/>
+                <h2 style={{fontWeight:"600" }}>Pages</h2><br/>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul>
@@ -95,24 +96,23 @@ const Footer = ({ noBg, extraCls }) => {
               <div className="widget contact-widget">
                 <h2 style={{fontWeight:"600"}}>Contact Us</h2><br/>
                 <div className="text">
-                  Welcome to Ganpathi Niwas , where comfort is everything.
+                  Welcome to Shiv Niwas , where comfort is everything.
                 </div>
                 <ul>
                   <li>
                     <i className="fal fa-phone" />
-                    <a href="tel:9620552269">9620552269</a><br/>
-                    <i className="fal fa-phone" /><a href="tel:8217556118">8217556118</a><br/>
-                    <i className="fal fa-phone" /><a href="tel:8310975697">8310975697</a>
+                    <a href="tel:8210310113">8210310113</a><br/>
+                    {/* <i className="fal fa-phone" /><a href="tel:8217556118">8217556118</a><br/>
+                    <i className="fal fa-phone" /><a href="tel:8310975697">8310975697</a> */}
                   
 
                   </li>
                   <li>
                     <i className="fal fa-envelope" />
-                    <a href="mailto:dakshvakshish@gmail.com">dakshvakshish@gmail.com</a>
+                    <a href="mailto:shiv.niwas09@gmail.com">shiv.niwas09@gmail.com</a>
                   </li>
                   <li>
-                    <i className="fal fa-map-marker-alt" /> No 79, Front of Acharya Institute,<br/>
-                    Soladevanahalli, Karnataka 560107
+                    <i className="fal fa-map-marker-alt" /> Near Acharya hostel,<br/>Soldevanhalli, karnataka 560107
                     
                   </li>
                 </ul>

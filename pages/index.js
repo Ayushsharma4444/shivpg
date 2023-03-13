@@ -28,11 +28,11 @@ const Index = () => {
                 <div className="content-box">
                   <div className="inner">
                     <div className="logo">
-                      <img src="assets/images/icons/pgroom1.jpeg" alt="" />
+                      {/* <img src="assets/images/pgroom1.jpeg" alt="" /> */}
                     </div>
                     <h1 className="banner-title">
                       Welcome to  <br />
-                      Ganpathi Niwas <br />
+                      Shiv Niwas <br />
                       PG
                     </h1>
                     <div className="link-box">
@@ -45,7 +45,7 @@ const Index = () => {
                   </div>
                   <div className="image-box">
                     <div className="image">
-                      <img src="assets/images/pgroom1.jpeg" alt="" />
+                      <img src="assets/images/shivpg3.jpeg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -57,11 +57,11 @@ const Index = () => {
                 <div className="content-box">
                   <div className="inner">
                     <div className="logo">
-                      <img src="assets/images/icons/pgroom1.jpeg" alt="" />
+                      {/* <img src="assets/images/icons/pgroom1.jpeg" alt="" /> */}
                     </div>
                     <h1 className="banner-title">
                       Welcome to <br />
-                     Ganapathi Niwas<br />
+                     Shiv Niwas<br />
                        PG
                     </h1>
                     <div className="link-box">
@@ -74,7 +74,7 @@ const Index = () => {
                   </div>
                   <div className="image-box">
                     <div className="image">
-                      <img src="assets/images/pgroom1.jpeg" alt="" />
+                      <img src="assets/images/shivpg3.jpeg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -160,15 +160,15 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="block-one">
                 <div className="row align-items-center">
-                  <div className="col-md-6">
+                  {/* <div className="col-md-6">
                     <div className="image mb-30">
-                      <img src="assets/images/pgroom5.jpeg" alt="" />
+                      <img src="assets/images/shivpg1.jpeg" alt="" />
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-md-6">
                     <div className="inner-box mb-30">
                       <div className="image-two">
-                        <img src="assets/images/pgroom1.jpeg" alt="" />
+                        <img style={{maxWidth:"none"}} src="assets/images/shivpg1.jpeg" alt="" />
                       </div>
                       
                     </div>
@@ -179,14 +179,14 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="block-two text-center">
                 <div className="image mb-10" id="about">
-                  <img src="assets/images/pgroom.jpeg" alt="" />
+                  {/* <img src="assets/images/shivpg3.jpeg" alt="" /> */}
                 </div>
                 <h2 className="sec-title" >
                   Welcome To Our <br />{" "}
                   <span className="theme-color">Hostel</span>{" "}
                 </h2>
                 <div className="text-two">
-                Ganpati Nivas PG is an excellent choice for anyone looking for a comfortable and affordable stay..
+                Shiv Nivas PG is an excellent choice for anyone looking for a comfortable and affordable stay..
                 </div>
                 <div className="bottom-content justify-content-center">
                   <div className="ratings">4.6</div>
@@ -323,11 +323,11 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="block-four">
                 <div className="image">
-                  <img src="assets/images/pgroom1.jpeg" alt="" />
+                  <img src="assets/images/shivpg1.jpeg" alt="" />
                 </div>
                 <div className="inner-box">
                   {/* <div className="pricing">$100 per day</div> */}
-                  <div className="text">Single Sharing Bed</div>
+                  <div className="text">Single & Double Sharing Bed</div>
                 </div>
               </div>
             </div>
@@ -347,18 +347,18 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="block-four">
                 <div className="image">
-                  <img src="assets/images/pgroom3.jpeg" alt="" />
+                  <img src="assets/images/shivpg3.jpeg" alt="" />
                 </div>
                 <div className="inner-box">
                   {/* <div className="pricing">$100 per day</div> */}
-                  <div className="text">Refrigerator</div>
+                  <div className="text">Nice Building</div>
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="block-four">
                 <div className="image">
-                  <img src="assets/images/pgroom5.jpeg" alt="" />
+                  <img src="assets/images/shivpg2.jpeg" alt="" />
                 </div>
                 <div className="inner-box">
                   {/* { <div className="pricing">$100 per day</div> } */}
@@ -414,14 +414,27 @@ const Index = () => {
         </div>
       </section>
       {/* section seven */}
-      <section className="section-seven">
+      
+      {/* <section className="section-seven">
         <h4 className="d-none">heading</h4>
         <div className="auto-container">
           <div className="block-seven">
-            
+            {/* <div className="image">
+              <img src="assets/images/shivpgvideo.mp4" alt="" />
+            </div> }
+            <div className="video-btn">
+              <a
+                href="assets/images/shivpgvideo.mp4"
+                className="overlay-link play-now ripple"
+                data-fancybox="gallery"
+                data-caption=""
+              >
+                <i className="fas fa-play" />
+              </a>
+            </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* testimonials section */}
       <section className="testimonials-section">
         <div className="auto-container">
@@ -455,11 +468,11 @@ const Index = () => {
                         <span className="far fa-star" />
                       </div>
                     </div>
-                    <h4>“ Jatin ”</h4>
+                    <h4>“ Nirmal ”</h4>
                   </div>
                   <div className="content">
                     <div className="text">
-                    The staff are friendly and always willing to help out with any requests or concerns. Overall, I had a pleasant and comfortable stay at Ganpati Nivas PG and would highly recommend it to anyone looking for affordable and convenient accommodation.
+                    The staff are friendly and always willing to help out with any requests or concerns. Overall, I had a pleasant and comfortable stay at Shiv Nivas PG and would highly recommend it to anyone looking for affordable and convenient accommodation.
                     </div>
                   </div>
                 </div>
@@ -483,11 +496,11 @@ const Index = () => {
                         <span className="far fa-star" />
                       </div>
                     </div>
-                    <h4>“Nikhil  ”</h4>
+                    <h4>“ Piyush Rana  ”</h4>
                   </div>
                   <div className="content">
                     <div className="text">
-                    Ganpati Nivas PG is a great place to stay for boys. The rooms are well-furnished and equipped with all the necessary amenities. The location is also quite convenient, with easy access to public transportation and nearby shops and restaurants. 
+                    Shiv Nivas PG is a great place to stay for boys. The rooms are well-furnished and equipped with all the necessary amenities. The location is also quite convenient, with easy access to public transportation and nearby shops and restaurants. 
                     </div>
                   </div>
                 </div>
@@ -511,11 +524,11 @@ const Index = () => {
                         <span className="far fa-star" />
                       </div>
                     </div>
-                    <h4>“Ravi”</h4>
+                    <h4>“Aarif Raza”</h4>
                   </div>
                   <div className="content">
                     <div className="text">
-                    The location was decent, but the lack of basic facilities such as hot water and proper ventilation made my stay quite uncomfortable. I would not recommend Ganpati Nivas PG to anyone looking for a comfortable and peaceful stay.
+                    The location was decent, but the lack of basic facilities such as hot water and proper ventilation made my stay quite uncomfortable. I would not recommend Shiv Nivas PG to anyone looking for a comfortable and peaceful stay.
                     </div>
                   </div>
                 </div>
@@ -539,11 +552,11 @@ const Index = () => {
                         <span className="far fa-star" />
                       </div>
                     </div>
-                    <h4>“ Sunny and Vikas ”</h4>
+                    <h4>“ Sunny and Ayush ”</h4>
                   </div>
                   <div className="content">
                     <div className="text">
-                    The location was decent, but the lack of basic facilities such as hot water and proper ventilation made my stay quite uncomfortable. I would not recommend Ganpati Nivas PG to anyone looking for a comfortable and peaceful stay.
+                    The location was decent, but the lack of basic facilities such as hot water and proper ventilation made my stay quite uncomfortable. I would not recommend Shiv Nivas PG to anyone looking for a comfortable and peaceful stay.
                     </div>
                   </div>
                 </div>
@@ -567,11 +580,11 @@ const Index = () => {
                         <span className="far fa-star" />
                       </div>
                     </div>
-                    <h4>“ Durgesh &amp; Vishal ”</h4>
+                    <h4>“ Arun &amp; karan ”</h4>
                   </div>
                   <div className="content">
                     <div className="text">
-                    I recently stayed at Ganpati Nivas PG and was quite disappointed with my experience.
+                    I recently stayed at Shiv Nivas PG and was quite disappointed with my experience.
                      The rooms were quite small and cramped, and the cleanliness was subpar.
                     </div>
                   </div>
